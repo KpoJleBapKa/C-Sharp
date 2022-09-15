@@ -1,5 +1,5 @@
 ﻿using System;
-
+//Даний масив цілих чисел розміру N. Перетворити масив, збільшивши (зменшивши) кожну його серію на один елемент. 
 namespace лб4
 {
     class Program
@@ -7,6 +7,7 @@ namespace лб4
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            
         }
     }
 }
