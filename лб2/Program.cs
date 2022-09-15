@@ -6,7 +6,20 @@ namespace лб2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double i, n, k, a;
+            bool flag = false;
+            a = 0;
+            do
+            {
+                Console.WriteLine("Enter n: ");
+                flag = double.TryParse(Console.ReadLine(), out n);
+            } while (!flag);
+            k = n * n;
+            for (i = k; i <= n*k; i++)
+            {
+                a += (Math.Pow(k, 2) - 1) / (Math.Pow((-1), (k + 1)) * Math.Pow(k, 2) + 7);
+            }
+            Console.WriteLine("Result: " + a);
         }
     }
 }
