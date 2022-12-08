@@ -12,11 +12,11 @@ namespace лб6
         {
             int i = 0;
             Console.WriteLine("Enter some text: ");
-            string str = Console.ReadLine(); // Вводим строку
-            string reversed = ""; // здесь будет наша перевернутая строка
+            string str = Console.ReadLine(); 
+            string reversed = ""; 
             for (i = str.Length - 1; i >= 0; i--)
             {
-                reversed += str[i]; // переворачиваем строку
+                reversed += str[i]; 
             }
             Console.WriteLine("The result: ");
             Console.WriteLine(reversed);
